@@ -20,7 +20,7 @@ $dt->setTimestamp($timestamp);
 $date = $dt->format("Y-m-d");
 $hour = $dt->format("H");
 
-$unitQuery = $conn->prepare("SELECT * from unitElections");
+$unitQuery = $conn->prepare("SELECT * from adultNominations");
 $unitQuery->execute();
 $unitQ = $unitQuery->get_result();
 $neededForElection = 0;

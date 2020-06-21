@@ -18,6 +18,17 @@ header("Pragma: no-cache");
     <link rel="stylesheet" href="libraries/fontawesome-free-5.12.0/css/all.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/awb5aoh.css" media="all">
     <link rel="stylesheet" href="style.css">
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37461006-19"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37461006-19');
+</script>
+
 
 
 </head>
@@ -118,7 +129,12 @@ header("Pragma: no-cache");
                         </ol></div>
                       </div>
                     </div>
-                    <a href="/submit.php?accessKey=<?php echo $accessKey; ?>&watchedVideo=true<?php echo ($_GET['ignoreTime'] == 'true' ? '&ignoreTime=true' : ''); ?><?php echo ($_GET['ignorePreviousSubmission'] == 'true' ? '&ignorePreviousSubmission=true' : ''); ?>" class="btn btn-primary mb-3">I'm ready to vote!</a>
+  					<div class="row">
+					<div class="col-auto">
+						<a href="thanks.php?error=1" class="btn btn-outline-secondary">Cancel</a></div>
+					<div class="col-auto">
+						<a href="/submit.php?accessKey=<?php echo $accessKey; ?>&watchedVideo=true<?php echo ($_GET['ignoreTime'] == 'true' ? '&ignoreTime=true' : ''); ?><?php echo ($_GET['ignorePreviousSubmission'] == 'true' ? '&ignorePreviousSubmission=true' : ''); ?>" class="btn btn-primary mb-3">I'm ready to vote!</a></div>
+					</div>
                     <?php
                   } else {
                     //insert form elements here
@@ -126,15 +142,15 @@ header("Pragma: no-cache");
                     <a href="/submit.php?accessKey=<?php echo $accessKey; ?><?php echo ($_GET['ignoreTime'] == 'true' ? '&ignoreTime=true' : ''); ?><?php echo ($_GET['ignorePreviousSubmission'] == 'true' ? '&ignorePreviousSubmission=true' : ''); ?>" class="btn btn-secondary mb-3">Show qualifications again</a>
                     <div class="card mb-3">
                       <div class="card-body">
-                        <p>Remember: The election is by secret ballot, so no one will know for who you are voting. The OA is not a popularity contest! Don't vote for a Scout just because he is your friend, or older than the rest. What really counts is his loyalty to the Scout Oath and Law.</p>
-                        <p>Who is a friend to all? Who is pleasant and easy to get along with? Who is cheerful, even when he has many tiresome jobs to do? Who has served your unit all year round, faithfully attending meetings and helping with service projects? Do you think he will continue his service in the future? Vote for only those you believe will continue in unselfish service to your troop.</p>
+                        <p>Remember: The election is by secret ballot, so no one will know for who you are voting for or against. The OA is not a popularity contest! Don't vote for a Scout just because they're your friend, or older than the rest. What really counts is their loyalty to the Scout Oath and Law.</p>
+                        <p>Who is a friend to all? Who is pleasant and easy to get along with? Who is cheerful, even when they have many tiresome jobs to do? Who has served your unit all year round, faithfully attending meetings and helping with service projects? Do you think they will continue his service in the future? Vote for only those you believe will continue in unselfish service to your troop.</p>
                       </div>
                     </div>
                     <form method="POST" action="index-process.php" enctype="multipart/form-data" id="unitElectionForm">
                       <input type="hidden" name="unitId" id="unitId" value="<?php echo $unitInfo['id']; ?>">
                       <div class="card mb-3">
                         <div class="card-body">
-                          <p>Please check the box next to each Scout you would like to vote for. You may vote for all, some, one, or none.</p>
+                          <p>Please check the box next to each Scout you would like to vote for. You may vote for all, some, one, or none. If you do not check any boxes and click submit, it will count as a vote for none. If you do not wish to vote at all, please click cancel.</p>
                           <?php $count = 1;
                           while($eligibleScout = $eligibleScoutsQ->fetch_assoc()) {
                             $eligibleScoutsArray[] = $eligibleScout['id'];
@@ -156,6 +172,7 @@ header("Pragma: no-cache");
                       </div>
                       <input type="hidden" id="eligibleScouts" name="eligibleScouts" value="<?php print_r(implode(',', $eligibleScoutsArray)); ?>">
                       <input type="hidden" id="accessKey" name="accessKey" value="<?php echo $accessKey; ?>">
+					  <a href="thanks.php?error=1" class="btn btn-outline-secondary">Cancel</a>
                       <button type="submit" name="submit" value="submit" class="btn btn-primary"><i class="fas fa-paper-plane pr-1"></i> Submit</button>
                       <div class="my-2"><small class="text-muted">Note: You will only be able to submit once, so make sure your ballot is correct!</small></div>
                     </form><?php

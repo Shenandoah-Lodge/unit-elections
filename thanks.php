@@ -19,6 +19,17 @@ header("Pragma: no-cache");
     <link rel="stylesheet" href="libraries/fontawesome-free-5.12.1-web/css/all.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/awb5aoh.css" media="all">
     <link rel="stylesheet" href="style.css">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-37461006-19"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-37461006-19');
+</script>
+
 
 
 </head>
@@ -48,17 +59,19 @@ header("Pragma: no-cache");
                     <?php
                     if ($_GET['error'] == 1) { ?>
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        <strong>Error!</strong> Something went wrong. Please try again. If this continues, please <a href="#" data-toggle="modal" data-target="#contact">contact the Lodge leadership team</a>.
+                        <strong>Error!</strong> Your vote did not save. If this continues, please use the red Need Help button in the bottom right hand corner to contact us.
                         <button type="button" class="close" data-dismiss="alert"><i class="fas fa-times"></i></button>
                     </div>
                     <?php } ?>
                 </section>
             </div>
         </div>
-
+		<?php
+        if ($_GET['success'] == 1) { ?>
         <div class="alert alert-success" role="alert">
             <strong>Thanks!</strong> Your votes have been submitted!
         </div>
+		<?php } ?>
         <div class="row">
           <div class="col-12">
             <div class="card mb-3">

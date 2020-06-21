@@ -92,6 +92,7 @@ if ($auth->isLoggedIn()) {
 				  <li><a href="<?php echo $this->base_url; ?>/chapter/"><i class="fas fa-tachometer-alt pr-1"></i> Chapter Dashboard</a></li>
 				  <li><a href="<?php echo $this->base_url; ?>/chapter/create-unit-election.php"><i class="fas fa-plus pr-1"></i> Create Unit Election</a></li>
 				  <li><a href="<?php echo $this->base_url; ?>/chapter/results.php"><i class="fas fa-poll-h pr-1"></i> Election Results</a></li>
+				  <li><a href="<?php echo $this->base_url; ?>/chapter/adults.php"><i class="fas fa-paper-plane pr-1"></i> Adult Nominations</a></li>
 				  <li><a href="<?php echo $this->base_url; ?>/chapter/archive.php"><i class="fas fa-archive pr-1"></i> Election Archive</a></li>
 			</ul>
 		</li>
@@ -116,6 +117,7 @@ if ($auth->isLoggedIn()) {
                 <!-- Admin Controls -->
                 <?php if ($auth->isAdmin()): ?>
                   <li><a href="<?php echo $this->base_url; ?>/export-items/">Export Results</a></li>
+				<li><a href="<?php echo $this->base_url; ?>/export-adult/">Review Adult Nominations</a></li>
 				  <li><a href="<?php echo $this->base_url; ?>/admin/users.php">Manage Users</a></li>
                   <li><a href="<?php echo $this->base_url; ?>/admin/roles.php">Manage Roles</a></li>
                   <li><a href="<?php echo $this->base_url; ?>/admin/mail.php">Mail Log</a></li>
