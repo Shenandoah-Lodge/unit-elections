@@ -1,5 +1,5 @@
 <?php
-$title = "Leadership Election Portal | Occoneechee Lodge - Order of the Arrow, BSA";
+$title = "Leadership Election Portal | Shenandoah Lodge - Order of the Arrow, BSA";
 $userrole = "Standard User"; // Allow only admins to access this page
 include "../login/misc/pagehead.php";
 
@@ -22,7 +22,7 @@ if ($conn->connect_error) {
     <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1" />
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-    <title>Review Adult Nominatons | Unit Elections Administration | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>Review Adult Nominatons | Unit Elections Administration | Shenandoah Lodge - Order of the Arrow, BSA</title>
 
     <link rel="stylesheet" href="../libraries/fontawesome-free-5.12.0/css/all.min.css">
 
@@ -50,7 +50,7 @@ if ($conn->connect_error) {
         </section>
 			<div class="alert alert-danger" role="alert">
 				<h3>Warning</h3>
-				 	<p>These nominations are read-only. Nominations are sent directly from the unit to the Lodge Selection Committee.</p>
+				 	<p>These nominations are read-only. Nominations are sent directly from the unit to the Council Selection Committee.</p>
 			 </div>
 
 		  <?php

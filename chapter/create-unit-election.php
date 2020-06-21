@@ -1,5 +1,5 @@
 <?php
-$title = "Create Unit Election | Chapter Election Portal | Occoneechee Lodge - Order of the Arrow, BSA";
+$title = "Create Unit Election | Chapter Election Portal | Shenandoah Lodge - Order of the Arrow, BSA";
 $userrole = "Standard User"; // Allow only logged in users
 include "../login/misc/pagehead.php";
 
@@ -22,7 +22,7 @@ if ($conn->connect_error) {
     <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1" />
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-    <title>New Unit Election | Unit Elections Administration | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>New Unit Election | Unit Elections Administration | Shenandoah Lodge - Order of the Arrow, BSA</title>
 
     <link rel="stylesheet" href="../libraries/fontawesome-free-5.12.0/css/all.min.css">
 

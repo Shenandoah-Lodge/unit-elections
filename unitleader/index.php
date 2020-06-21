@@ -1,5 +1,5 @@
 <?php
-$title = "Unit Leader Election Portal | Occoneechee Lodge - Order of the Arrow, BSA";
+$title = "Unit Leader Election Portal | Shenandoah Lodge - Order of the Arrow, BSA";
 include "../login/misc/pagehead.php";
 
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
@@ -13,7 +13,7 @@ header("Pragma: no-cache");
     <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1" />
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-    <title>Unit Election Administration | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>Unit Election Administration | Shenandoah Lodge - Order of the Arrow, BSA</title>
 
     <link rel="stylesheet" href="../libraries/fontawesome-free-5.12.0/css/all.min.css">
 

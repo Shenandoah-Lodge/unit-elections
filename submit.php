@@ -12,7 +12,7 @@ header("Pragma: no-cache");
     <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1" />
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-    <title>Voting | Unit Elections Portal | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>Voting | Unit Elections Portal | Shenandoah Lodge - Order of the Arrow, BSA</title>
 
     <link rel="stylesheet" href="libraries/bootstrap-4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="libraries/fontawesome-free-5.12.0/css/all.min.css">
@@ -45,7 +45,7 @@ header("Pragma: no-cache");
 
         <div class="collapse navbar-collapse c-navbar-content" id="navbar-main">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="https://lodge104.net" target="_blank">Occoneechee Lodge Home</a>
+                <a class="nav-item nav-link" href="https://shenandoahlodge.org" target="_blank">Shenandoah Lodge Home</a>
             </div>
         </div>
     </nav>

@@ -12,7 +12,7 @@ header("Pragma: no-cache");
     <meta http-equiv=X-UA-Compatible content="IE=Edge,chrome=1" />
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-    <title>Unit Elections Portal | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>Unit Elections Portal | Shenandoah Lodge - Order of the Arrow, BSA</title>
 
     <link rel="stylesheet" href="libraries/bootstrap-4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="libraries/fontawesome-free-5.12.0/css/all.min.css">
@@ -46,7 +46,7 @@ header("Pragma: no-cache");
 
         <div class="collapse navbar-collapse c-navbar-content" id="navbar-main">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="https://lodge104.net" target="_blank">Occoneechee Lodge Home</a>
+                <a class="nav-item nav-link" href="https://shenandoahlodge.org" target="_blank">Shenandoah Lodge Home</a>
             </div>
         </div>
     </nav>
@@ -93,7 +93,7 @@ header("Pragma: no-cache");
                     Has it been more than 6 months since you successfully completed your Ordeal experience and became a member of the Order of the Arrow? Join us for the Brotherhood. This worthwhile experience, which is completely different than your Ordeal, is not to be missed.
 				  </div>
 				  <div class="col-md-4">
-				    <a class="btn btn-primary btn-block" href="https://lodge104.net/brotherhood" target="_blank">Learn More!</a>
+				    <a class="btn btn-primary btn-block" href="https://shenandoahlodge.org/brotherhood" target="_blank">Learn More!</a>
 			  	  </div>
 				</div>
               </div>
@@ -105,12 +105,10 @@ header("Pragma: no-cache");
               <div class="card-body text-center">
                 <h3 class="card-title">Stay Connected</h3>
                 <p class="footer-socialmedia">
-                  <a href="https://www.facebook.com/lodge104" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-                  <a href="https://twitter.com/lodge104" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
-                  <a href="https://www.instagram.com/lodge104/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
-				  <a href="https://www.snapchat.com/add/lodge104/" target="_blank"><i class="fab fa-snapchat-square fa-2x"></i></a>
-				  <a href="https://youtube.com/oalodge104" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-				  <a href="https://www.flickr.com/photos/144663840@N05/albums" target="_blank"><i class="fab fa-flickr fa-2x"></i></a>
+                  <a href="https://www.facebook.com/oashenandoah" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                  <a href="https://twitter.com/oashenandoah" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+                  <a href="https://www.instagram.com/oashenandoah/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
+				  <a href="https://www.snapchat.com/add/oashenandoah/" target="_blank"><i class="fab fa-snapchat-square fa-2x"></i></a>
                 </p>
               </div>
             </div>

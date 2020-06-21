@@ -1,5 +1,5 @@
 <?php
-$title = "Election Archives | Occoneechee Lodge - Order of the Arrow, BSA";
+$title = "Election Archives | Shenandoah Lodge - Order of the Arrow, BSA";
 $userrole = "Standard User"; // Allow only logged in users
 include "../login/misc/pagehead.php";
 

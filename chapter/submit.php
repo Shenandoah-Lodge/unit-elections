@@ -1,5 +1,5 @@
 <?php
-$title = "Chapter Election Portal | Occoneechee Lodge - Order of the Arrow, BSA";
+$title = "Chapter Election Portal | Shenandoah Lodge - Order of the Arrow, BSA";
 $userrole = "Standard User"; // Allow only logged in users
 include "../login/misc/pagehead.php";
 
@@ -24,7 +24,7 @@ if ($conn->connect_error) {
     <meta name=viewport content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
 
-    <title>Dashboard | Unit Elections Administration | Occoneechee Lodge - Order of the Arrow, BSA</title>
+    <title>Dashboard | Unit Elections Administration | Shenandoah Lodge - Order of the Arrow, BSA</title>
 	
 	<link rel="stylesheet" href="../libraries/fontawesome-free-5.12.0/css/all.min.css">
 
