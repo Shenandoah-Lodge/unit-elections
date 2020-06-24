@@ -1,7 +1,7 @@
 Order of the Arrow Virtual Unit Elections Portal
 =========
 
-This is the Unit Elections Portal used by Occoneechee Lodge. This system allows for our lodge to track unit elections from start to finish.
+This is the Unit Elections Portal used by Shenandoah Lodge. This system allows for our lodge to track unit elections from start to finish.
 
 Our main website allows for unit leaders to request a unit election via a form that sends an election request to a Chapter Adviser. The Chapter Adviser has an account on our unit elections portal and logs the request. The Chapter Adviser then responds to the request via email and gives the Unit Leader an access key provided by the system and a link to the unit leader page within this unit elections portal. 
 
@@ -55,6 +55,7 @@ Technologies used:
 - [PHP Login for User Management](https://github.com/therecluse26/PHP-Login)
     - Version `3.1`
 - [Originally Forked from eibrown12](https://github.com/eibrown12/unit-elections)
+- [Originally Forked from lodge104](https://github.com/lodge104/unit-elections)
 - `DataTables`
 	- Version `1.10.16`
 - `Cropper`
